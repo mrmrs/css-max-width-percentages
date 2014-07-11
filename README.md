@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .mx-wi-99  { max-width: 99%; }
 .mx-wi-100  { max-width: 100%; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mx-wi-1-ns  { max-width: 1%; }
   .mx-wi-2-ns  { max-width: 2%; }
   .mx-wi-3-ns  { max-width: 3%; }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .mx-wi-100-ns  { max-width: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .mx-wi-1-m  { max-width: 1%; }
   .mx-wi-2-m  { max-width: 2%; }
   .mx-wi-3-m  { max-width: 3%; }
@@ -326,7 +326,7 @@ or download the css on github and include in your project.
   .mx-wi-100-m  { max-width: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mx-wi-1-l  { max-width: 1%; }
   .mx-wi-2-l  { max-width: 2%; }
   .mx-wi-3-l  { max-width: 3%; }
