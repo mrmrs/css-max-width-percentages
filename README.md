@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-max-width-percentages)
 ## File Size
 
 13K max-width-percentages.css
-10K max-width-percentages.min.css
+10K max-width-percentages.min.css 
+1minified and gzipped
 
 ## The Code
 ```
