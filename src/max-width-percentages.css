@@ -103,7 +103,7 @@
 .mx-wi-99  { max-width: 99%; }
 .mx-wi-100  { max-width: 100%; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mx-wi-1-s  { max-width: 1%; }
   .mx-wi-2-s  { max-width: 2%; }
   .mx-wi-3-s  { max-width: 3%; }
@@ -206,7 +206,7 @@
   .mx-wi-100-s  { max-width: 100%; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .mx-wi-1-m  { max-width: 1%; }
   .mx-wi-2-m  { max-width: 2%; }
   .mx-wi-3-m  { max-width: 3%; }
@@ -309,7 +309,7 @@
   .mx-wi-100-m  { max-width: 100%; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mx-wi-1-l  { max-width: 1%; }
   .mx-wi-2-l  { max-width: 2%; }
   .mx-wi-3-l  { max-width: 3%; }
