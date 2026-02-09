@@ -1,38 +1,44 @@
 {
   "name": "css-max-width-percentages",
-  "style": "max-width-percentages.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-max-width-percentages",
-  "description": "Css module of single purpose classes for max width percentages",
+  "version": "2.0.0",
+  "description": "Functional CSS for max-width-percentages",
+  "style": "dist/max-width-percentages.css",
+  "main": "dist/max-width-percentages.css",
+  "exports": {
+    ".": "./dist/max-width-percentages.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "max-width-percentages"
+    "max-width-percentages",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-max-width-percentages": {
+  "homepage": "https://github.com/mrmrs/css-max-width-percentages",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-max-width-percentages.git"
+    "url": "https://github.com/mrmrs/css-max-width-percentages.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-max-width-percentages/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-max-width-percentages/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
